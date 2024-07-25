@@ -49,19 +49,16 @@ table: cars
 table: cars
 
 - id 
-    - 
-    - 
-    - 
-    - 
+    - BIGINT
+    - AI
+    - NOTNULL
+    - UNIQUE
 - Marca
     - VARCHAR(30)
     - NOTNULL
 - Modello
     - VARCHAR(20)
     - NOTNULL
-- Tipologia
-    - 
-    - 
 - Immatricolazione
     - YEAR
     - NOTNULL
@@ -83,6 +80,6 @@ table: cars
 - Colore
     - VARCHAR(30)
     - NULL
-- Città
-    - 
-    - 
+- Note
+    - TEXT
+    - NULL
