@@ -81,6 +81,8 @@ table: cars
     - VARCHAR(30)
     - NULL
 - optionals <!-- (R)DBMS -->
+    - VARCHAR
+    - NULL
 - note
     - TEXT
     - NULL
