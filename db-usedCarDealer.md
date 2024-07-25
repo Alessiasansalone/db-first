@@ -46,6 +46,8 @@ table: cars
 
 # Correzione
 
+table: cars
+
 - id 
     - 
     - 
