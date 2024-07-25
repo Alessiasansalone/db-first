@@ -23,7 +23,7 @@ table: cars
     - DECIMAL(8,2)
     - NOTNULL
 - Chilometri
-    - TINYINT
+    - MEDIUMINT
     - NOTNULL
 - Potenza
     - SMALLINT
@@ -43,3 +43,44 @@ table: cars
 - Città
     - VARCHAR(80)
     - NULL
+
+# Correzione
+
+- id 
+    - 
+    - 
+    - 
+    - 
+- Marca
+    - VARCHAR(30)
+    - NOTNULL
+- Modello
+    - VARCHAR(20)
+    - NOTNULL
+- Tipologia
+    - 
+    - 
+- Immatricolazione
+    - YEAR
+    - NOTNULL
+- Prezzo
+    - DECIMAL(8,2)
+    - NULL
+- Chilometri
+    - MEDIUMINT
+    - NOTNULL
+- Cilindrata
+    - VARCHAR(20)
+    - NULL
+- Alimentazione
+    - VARCHAR(20)
+    - NOTNULL
+- Cambio
+    - VARCHAR(30)
+    - NOTNULL
+- Colore
+    - VARCHAR(30)
+    - NULL
+- Città
+    - 
+    - 
